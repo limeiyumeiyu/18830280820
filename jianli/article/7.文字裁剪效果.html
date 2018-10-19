@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /* 以文字内容往外进行裁剪 - 背景裁剪
+         -webkit- 兼容webkit内核的浏览器（谷歌浏览器）
+        */
+        p{font-size: 100px;text-align: center;font-weight: bold;
+            background: url("pic.jpg") center;
+            -webkit-background-clip: text; /* 文字之外的背景被裁剪掉*/
+            -webkit-text-fill-color: transparent; /*文字填充的颜色变成透明*/
+        }
+    </style>
+</head>
+<body>
+<p>保定职业技术学院</p>
+</body>
+</html>
